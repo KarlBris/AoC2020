@@ -30,8 +30,3 @@ splitString c ls (r:rs)
   | r == c = (reverse ls, rs)
   | otherwise = splitString c (r:ls) rs 
 splitString c ls []       = (ls, [])
-
-test1 = compareToExampleSolutions part1 examples2 solutions2_1
-test2 = compareToExampleSolutions part2 examples2 solutions2_2
-go1   = part1 input2
-go2   = part2 input2
