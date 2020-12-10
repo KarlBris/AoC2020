@@ -72,10 +72,10 @@ solutions9_1 = [127]
 solutions9_2 = [62]
 
 --Day10
-input10 = ""
-examples10 = [undefined]
-solutions10_1 = [undefined]
-solutions10_2 = [undefined]
+input10 = "8\n40\n45\n93\n147\n64\n90\n125\n149\n145\n111\n126\n9\n146\n38\n97\n103\n6\n122\n34\n18\n35\n96\n86\n116\n29\n59\n118\n102\n26\n66\n17\n74\n94\n5\n114\n128\n1\n75\n47\n141\n58\n65\n100\n63\n12\n53\n25\n106\n136\n15\n82\n22\n117\n2\n80\n79\n139\n7\n81\n129\n19\n52\n87\n115\n132\n140\n88\n109\n62\n73\n46\n24\n69\n101\n110\n16\n95\n148\n76\n135\n142\n89\n50\n72\n41\n39\n42\n56\n51\n57\n127\n83\n121\n33\n32\n23"
+examples10 = ["16\n10\n15\n5\n1\n11\n7\n19\n6\n12\n4", "28\n33\n18\n42\n31\n14\n46\n20\n48\n47\n24\n23\n49\n45\n19\n38\n39\n11\n1\n32\n25\n35\n8\n17\n7\n9\n4\n2\n34\n10\n3"]
+solutions10_1 = [7*5, 22*10]
+solutions10_2 = [8, 19208]
 
 --Day11
 input11 = ""
