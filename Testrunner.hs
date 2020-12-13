@@ -90,10 +90,10 @@ solutions12_1 = [25]
 solutions12_2 = [286]
 
 --Day13
-input13 = ""
-examples13 = [undefined]
-solutions13_1 = [undefined]
-solutions13_2 = [undefined]
+input13 = "1005595\n41,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,37,x,x,x,x,x,557,x,29,x,x,x,x,x,x,x,x,x,x,13,x,x,x,17,x,x,x,x,x,23,x,x,x,x,x,x,x,419,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,19"
+examples13 = ["939\n7,13,x,x,59,x,31,19"]
+solutions13_1 = [295]
+solutions13_2 = [1068781]
 
 --Day14
 input14 = ""
