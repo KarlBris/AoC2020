@@ -19,12 +19,9 @@ part2 i = toInteger $ findEarliestSequence 0 inputs
         zipped = zip bs [0..]
         inputs = catMaybes $ map (f) zipped
 
-
 f :: (Maybe Int, Int) -> (Maybe (Int, Int))
 f (Nothing, i) = Nothing
 f (Just a, i) = Just (a, i)
-
-
 
 findEarliestSequence :: Int -> [(Int, Int)] -> Int
 findEarliestSequence n ns = if done then n else findEarliestSequence (n+step) ns
@@ -46,12 +43,3 @@ checkSchedule t b = (b, b - (t `mod` b))
 processInput :: String -> (Int, [Maybe Int])
 processInput i = (read $ l!!0, map readMaybe $ splitOn "," (l!!1))
   where l = lines i
-
-
-
-
-
-test1 = compareToExampleSolutions part1 examples13 solutions13_1
-test2 = compareToExampleSolutions part2 examples13 solutions13_2
-go1   = part1 input13
-go2   = part2 input13
